@@ -7,9 +7,9 @@ public class AtualizadorDeContas {
     }
     
     public void roda(Conta c) {
-        System.out.printf("Antes da atualização: %.2f\n", c.getSaldo());
+        System.out.println("Antes da atualização: " + c.getSaldo());
         c.atualiza(this.selic);
-        System.out.printf("Depois da atualização: %.2f\n", c.getSaldo());
+        System.out.println("Depois da atualização: " + c.getSaldo());
         this.saldoTotal += c.getSaldo();
     }
 

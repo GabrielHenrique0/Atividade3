@@ -14,6 +14,6 @@ class TestaAtualizadorDeContas {
         adc.roda(cc);
         adc.roda(cp);
 
-        System.out.printf("Saldo Total: %.2f", adc.getSaldoTotal());
+        System.out.println("Saldo Total: " + adc.getSaldoTotal());
     }
 }
